@@ -1,6 +1,6 @@
 import './PlayerSection.scss';
 
-function PlayerSection({name, country, club, ippon, wazari, shido}) {
+function PlayerSection({name, country,flag, club, ippon, wazari, shido}) {
   return (
     <section className='player'>
         <img className='player__country' src = "" alt = {country} />
