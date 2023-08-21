@@ -7,6 +7,7 @@ function ScoreboardLayout({children}) {
     <div className='blue'>
     {children[1]}
     </div>
+    {children[2]}
     </>
   );
 }
