@@ -3,7 +3,7 @@
 }
 .player{
     display:flex;
-    height:30%;
+    height:30vh;
     &__origin{
         display:flex;
         flex-direction: column;
@@ -32,11 +32,12 @@
     &__scores{
         display:flex;
         flex-direction:row;
-        justify-content: space-evenly;
+        justify-content: center;
+        column-gap: 2rem;
         align-items: center;
     }
     &__scorecount{
-        font-size: 5rem;
+        font-size: 7rem;
         font-weight: bolder;
         margin: 0;
     }
@@ -44,5 +45,8 @@
         color:gray;
         font-size: 2rem;
         object-fit: contain;
+    }
+    &__right{
+        flex-grow: 2;
     }
 }
