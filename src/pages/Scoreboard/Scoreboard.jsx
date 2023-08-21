@@ -21,8 +21,8 @@ function Scoreboard() {
   }, [])
     return (
       <ScoreboardLayout>
-        <PlayerSection name={match.player_white} country = {match.country_white} flag = {flag} club= {match.club_white} ippon = {0} wazari={0} shido = {0}/>
-        <PlayerSection name={match.player_blue} country = {match.country_blue} flag = {flag} club= {match.club_blue}  ippon = {0} wazari={1} shido = {0}/>
+        <PlayerSection name={match.player_white} country = {match.country_white} flag = {flag} club= {match.club_white} ippon = {match.whiteIppon} wazari={match.whiteWazari} shido = {match.whiteShido}/>
+        <PlayerSection name={match.player_blue} country = {match.country_blue} flag = {flag} club= {match.club_blue}  ippon = {match.blueIppon} wazari={match.blueWazari} shido = {match.blueShido}/>
         <Timer round = {1} weight={match.weight} osaekomiColor="none" osaekomiTime={"00"}></Timer>
       </ScoreboardLayout>
     );
