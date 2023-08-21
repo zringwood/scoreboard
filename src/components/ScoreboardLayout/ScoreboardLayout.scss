@@ -1,0 +1,19 @@
+.blue{
+    background-color: blue;
+    .player{
+        color:white;
+        &__origin{
+            flex-direction: column-reverse;
+        }
+        &__right{
+            display:flex;
+            flex-direction: column-reverse;
+        }
+        &__scores{
+            background-color: blue;
+        }
+        &__blank{
+            background-color: blue;
+        }
+    }
+}

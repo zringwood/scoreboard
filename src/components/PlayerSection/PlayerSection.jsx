@@ -20,10 +20,10 @@ function PlayerSection({name, country,flag, club, ippon, wazari, shido}) {
         <div className='player__right'>
         <h1 className='player__title'>{`${name}, ${country}/${club}`}</h1>
         <div className='player__scores'>
-        <span className="player__scorecount">{ippon}</span>
-        <span className='player__scorecount'>{wazari}</span>
+        <p className="player__scorecount">{ippon}</p>
+        <p className='player__scorecount'>{wazari}</p>
         {shido === 0 ? <span className='player__shido'>s</span> : <img className='player__shido'src = {shido_svg} alt = "shidos"/>}
-        
+        <div className='player__blank'></div>
         </div>
         </div>
     </section>

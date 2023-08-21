@@ -6,8 +6,8 @@ import flag_netherlands from "./assets/dutch_flag.png"
 function App() {
   return (
     <ScoreboardLayout>
-      <PlayerSection name="Hifume ABE" country = "JPN" flag = {flag} club= "TOKAI UNIVERSITY" ippon = {0} wazari={0} shido = {2}/>
-      <PlayerSection name="Mark HUIZINGA" country = "NDL" flag = {flag_netherlands} club= "HOLLAND JUDO CLUB" ippon = {0} wazari={1} shido = {3}/>
+      <PlayerSection name="Hifume ABE" country = "JPN" flag = {flag} club= "TOKAI UNIVERSITY OF JAPAN VAERY BIG NICE CLUB" ippon = {0} wazari={0} shido = {0}/>
+      <PlayerSection name="Mark HUIZINGA" country = "NDL" flag = {flag_netherlands} club= "HOLLAND JUDO CLUB" ippon = {0} wazari={1} shido = {0}/>
     </ScoreboardLayout>
   );
 }
