@@ -1,0 +1,21 @@
+.matchForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    &__layout{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    justify-content: center;
+    }
+    &__submit{
+        width:fit-content;
+    }
+}
+.playerSection{
+    display: flex;
+    flex-direction: column;
+
+}
