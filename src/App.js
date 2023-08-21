@@ -4,7 +4,7 @@ import ScoreboardLayout from './components/ScoreboardLayout/ScoreboardLayout';
 import flag from "./assets/flag-japan.webp"
 function App() {
   return (
-      <PlayerSection name="Hifume Abe" country = "JPN" club= "TOKAI" ippon = {0} wazari={0} shido = {0}/>
+      <PlayerSection name="Hifume ABE" country = "JPN" flag = {flag} club= "TOKAI UNIVERSITY" ippon = {0} wazari={0} shido = {0}/>
   );
 }
 
