@@ -1,13 +1,13 @@
 import "./Timer.scss"
 
-function Timer({round, weight, osaekomiColor, osaekomiTime}){
+function Timer({round, weight, time, osaekomiColor, osaekomiTime}){
     return (
         <section className="timer">
             <div className="timer__matchinfo">
             <h3 className="timer__text">{`Round ${round}`}</h3>
             <span className="timer__text">{weight}</span>
             </div>
-            <time className="timer__roundtimer">0:00</time>
+            <time className="timer__roundtimer">{time}</time>
             <div className="osaekomi">
                 <span className="osaekomi__color">?</span>
                 <span className="osaekomi__color">?</span>
