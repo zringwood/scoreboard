@@ -1,0 +1,6 @@
+<svg width="80" height="110" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="40" height="90" fill="yellow" stroke="black" stroke-width="1"/>
+  <rect x="10" y="10" width="40" height="90" fill="yellow" stroke="black" stroke-width="1" transform="rotate(10, 20,90)"/>
+  <rect x="10" y="10" width="40" height="90" fill="yellow" stroke="black" stroke-width="1" transform="rotate(20, 20,90)"/>
+
+</svg>
