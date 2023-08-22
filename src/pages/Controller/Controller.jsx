@@ -45,7 +45,7 @@ function Controller() {
             <div className="flex-input">
             <label htmlFor="whiteIppon">Ippon:</label>
             <input type="checkbox" id="whiteIppon" name="whiteIppon" onChange={(evt) => {
-                setWhiteIppon(evt.target.value ? 1:0)
+                setWhiteIppon(evt.target.value==="checked" ? 1:0)
             }}/>
             </div>
             <label htmlFor="whiteWazari">Wazari:</label>
@@ -100,7 +100,7 @@ function Controller() {
             <div className="flex-input">
             <label htmlFor="blueIppon">Ippon:</label>
             <input type="checkbox" id="blueIppon" name="blueIppon" onChange={(evt) => {
-                setBlueIppon(evt.target.value ? 1:0)
+                setBlueIppon(evt.target.value === "checked" ? 1:0)
             }}/>
             </div>
             <label htmlFor="blueWazari">Wazari:</label>
