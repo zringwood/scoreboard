@@ -2,14 +2,18 @@ import './PlayerSection.scss';
 import shido_one from '../../assets/shido_one.svg'
 import shido_two from "../../assets/shido_two.svg"
 import shido_three from "../../assets/shido_three.svg"
+import shido_four from "../../assets/shido_four.svg"
 function PlayerSection({name, country,flag, club, ippon, wazari, shido}) {
 
     let shido_svg = shido_one
-    if(shido === 2){
+    if(shido === '2'){
         shido_svg = shido_two
     }
-    if(shido === 3){
+    if(shido === '3'){
         shido_svg = shido_three
+    }
+    if(shido === '4'){
+        shido_svg = shido_four
     }
   return (
     <section className='player'>

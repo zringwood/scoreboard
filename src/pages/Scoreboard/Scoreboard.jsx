@@ -33,7 +33,7 @@ function Scoreboard() {
       <ScoreboardLayout>
         <PlayerSection name={match.player_white} country = {match.country_white} flag = {flag} club= {match.club_white} ippon = {match.whiteIppon} wazari={match.whiteWazari} shido = {match.whiteShido}/>
         <PlayerSection name={match.player_blue} country = {match.country_blue} flag = {flag_netherlands} club= {match.club_blue}  ippon = {match.blueIppon} wazari={match.blueWazari} shido = {match.blueShido}/>
-        <Timer round = {1} weight={match.weight} time = {`${`${Math.floor((time-startTime)/1000/60)}`.padStart(2,"0")}:${`${Math.floor((time-startTime)/1000)%60}`.padStart(2,"0")}`} osaekomiColor="none" osaekomiTime={"00"}></Timer>
+        <Timer round = {1} weight={match.weight} time = {`${`${10-Math.floor((time-startTime)/1000/60)}`.padStart(2,"0")}:${`${60-Math.floor((time-startTime)/1000)%60}`.padStart(2,"0")}`} osaekomiColor="none" osaekomiTime={"00"}></Timer>
       </ScoreboardLayout>
     );
   }
