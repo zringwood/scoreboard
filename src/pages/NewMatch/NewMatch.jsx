@@ -14,7 +14,6 @@ function NewMatch() {
                 country_white: evt.target.form.whiteCountry.value,
                 weight: evt.target.form.weight.value
         }
-        console.log(game)
         axios.post("http://localhost:8080", game).then(res => {
             navigate(`/display/${res.data}`)
         }).catch(err => {
